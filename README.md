@@ -1,4 +1,4 @@
-# 1. Dockerfile.ubuntu
+# 1. ubuntu:latest
 
 ## 1.1 Dockerfile.cpp
 
