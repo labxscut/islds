@@ -24,8 +24,9 @@ RUN conda create -n islds -y python=3.8 && \
     echo "source activate islds" >> ~/.bashrc && \
     . ~/miniconda/etc/profile.d/conda.sh && \
     conda activate islds && \
-    pip install numpy scipy matplotlib notebook
+    conda install numpy scipy matplotlib && \ 
+    conda-forge notebook
 
 # docker run -p 8787:8787 -p 8888:8888 -v /mnt/e/tmp/:/home/rstudio/data -v /mnt/e/tmp:/mnt/tmp --name rpy -d isl-rpy sleep infinity
 # rstudio-server start
-# jupyter notebook --allow-root
+# jupyter notebook --allow-root --notebook-dir=/mnt/tmp --ip='0.0.0.0' --port=8888 --no-browser
