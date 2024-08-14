@@ -24,8 +24,8 @@ RUN conda create -n islds -y python=3.8 && \
     echo "source activate islds" >> ~/.bashrc && \
     . ~/miniconda/etc/profile.d/conda.sh && \
     conda activate islds && \
-    conda install numpy scipy matplotlib && \ 
-    conda-forge notebook
+    pip install -y numpy scipy matplotlib && \ 
+    conda install -y -c conda-forge notebook
 
 # docker run -p 8787:8787 -p 8888:8888 -v /mnt/e/tmp/:/home/rstudio/data -v /mnt/e/tmp:/mnt/tmp --name rpy -d isl-rpy sleep infinity
 # rstudio-server start
