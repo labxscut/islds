@@ -1,0 +1,10 @@
+TODO:
+
+0. Create a github account
+1. Fork a copy of this course repo labxscut/islds and clone to local
+2. Use English (latin) names for all your files
+3. Add your course design paper file to your folder, name it as xxx.paper.yyyymmdd.docx
+4. Add Pynotebook and/or Rmd files associated with your paper to your folder
+5. Add Python/R scripts or packages associated with your paper to your folder
+6. Commit all changes and push changes to your repo, git add -A .
+7. Create a pull request to merge to the course, wlp will approve your pull request
