@@ -1,4 +1,4 @@
-TODO:
+Baisc Ops:
 
 0. Create a github account
 1. Fork a copy of this course repo labxscut/islds and clone to local
@@ -8,3 +8,6 @@ TODO:
 5. Add Python/R scripts or packages associated with your paper to your folder
 6. Commit all changes and push changes to your repo, git add -A .
 7. Create a pull request to merge to the course, wlp will approve your pull request
+
+Topics:
+1. Angentic coding with Data Sciences
